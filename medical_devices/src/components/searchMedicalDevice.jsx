@@ -53,10 +53,13 @@ class SearchMedicalDevice extends React.Component {
   }
 
   /**
-   * Clears the page by resetting the the information on all the tables. It also passes the state renderTables to false who is responsible for rendering the tables.
+   * Clears the search input element and puts the focus on it again.
+   * Clears the page by resetting the information on all the tables.
+   * It also passes the state renderTables to false who is responsible for rendering the tables.
    */
   clearPage = () => {
-    this.setState({eudamedTableInfo: [], fdaTableInfo: [], tableInfo: [], renderTables: false});
+    this.setState({searchValue: "", eudamedTableInfo: [], fdaTableInfo: [], tableInfo: [], renderTables: false});
+    this.searchInputRef.current.focus();
   }
 
   /**
