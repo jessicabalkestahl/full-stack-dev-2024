@@ -30,3 +30,5 @@
 # Provide below any suggestions or recommendations for how you would expand on this functionality further. 
 - I would firstly work on a Django migration to standardize the data across both tables and give it a foreign key for easier access between both tables.
 - I could expand the options that the user could search a device for. i.e. search by manufacturers name.
+- I could render some filters so the user wouldn't need to type the device name and just choose from a selection of dropdowns.
+- I could limit the information on the columns to only show the most important ones and allow to click on each row and show more information about the selected device. i.e. a React modal
