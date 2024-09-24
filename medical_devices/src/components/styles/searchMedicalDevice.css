@@ -1,0 +1,92 @@
+
+
+#searchMedicalDevice {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}
+
+#searchInput {
+    flex: 1;
+    border-color: #ccc;
+    border-width: 1px;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.table-title, .no-devices-found-message {
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 16px;
+    color: #3d5587!important;
+}
+
+h4 {
+    font-size: 12px;
+    color: red!important;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    overflow-x: auto;
+    display: block;
+    padding: 10px 50px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    font-size: 10px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #d5dee8;
+}
+
+#clear-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+#clear-button > button, #show-all-devices-button > button{
+  background-color: #2b3d65;
+  border: none;
+  color: white;
+  padding: 15px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 12px;
+  transition-duration: 0.4s;
+    margin-bottom: 100px;
+}
+
+#clear-button > button:hover, #show-all-devices-button > button:hover {
+  background-color: #13203b;
+}
+
+#show-all-devices-button {
+    display: flex;
+    justify-content: right;
+    margin-top: 30px;
+    margin-right: 20px;
+}

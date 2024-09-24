@@ -1,0 +1,6 @@
+
+node_modules/*
+venv/
+.idea/
+__pycache__/
+medical_devices/node_modules/

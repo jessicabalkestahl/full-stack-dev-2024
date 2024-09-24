@@ -22,7 +22,7 @@ The SQLite3 database contains two small tables: **`fda_data`** and **`eudamed_da
 Create a Django web application with the following functionality:
 
 1. **Single-page app**: The app should contain one main page only.
-2. **Search bar**: Include a search bar in the header where users can search for a device by `device_name`.
+2. **SearchMedicalDevice bar**: Include a search bar in the header where users can search for a device by `device_name`.
 3. **Display Results**:
     - When a device is searched, return the respective data from **both** the `fda_data` and `eudamed_data` tables.
     - If the device is found in one table but not the other, return the data from the table where it exists and display a message indicating it was not found in the other table.
